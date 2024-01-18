@@ -1,12 +1,11 @@
 window.addEventListener('load', function() {
-    // Establecer un tiempo mínimo de carga (en milisegundos)
-    var tiempoMinimo = 3000;
+    // ESTABLECER UN TIEMPO MÍNIMO DE CARGA
+    let tiempoMinimo = 3000;
 
-    // Obtener el tiempo actual
-    var tiempoInicio = new Date().getTime();
+    // OBTENER EL TIEMPO ACTUAL
+    let tiempoInicio = new Date().getTime();
 
-    // Oculta el preloader después del tiempo mínimo
-    var tiempoRestante = tiempoMinimo - (new Date().getTime() - tiempoInicio);
+    let tiempoRestante = tiempoMinimo - (new Date().getTime() - tiempoInicio);
 
     if (tiempoRestante > 0) {
         setTimeout(function() {
@@ -15,7 +14,7 @@ window.addEventListener('load', function() {
         }, tiempoRestante);
 
     } else {
-        // Si ya ha pasado el tiempo mínimo, oculta el preloader inmediatamente
+        // SI YA HA PASADO EL TIEMPO MÍNIMO, OCULTA EL PRELOADER INMEDIATAMENTE
         document.getElementById('preloader').style.display = 'none';
         document.getElementById('contenido').style.display = 'block';
         var bodyElement = document.body;
