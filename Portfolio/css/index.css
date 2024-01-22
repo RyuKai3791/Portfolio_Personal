@@ -5,6 +5,25 @@ body {
     background-size: cover;
 }
 
+/* REVISAR */
+.sect {
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#sect1 {
+    position: relative;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
 /* MENÚ */
 nav {
     display: flex;
@@ -21,6 +40,7 @@ nav ul {
     background-color: #000000;
     overflow: hidden;
     display: inline-block;
+    height: 100%;
 }
 
 nav li {
