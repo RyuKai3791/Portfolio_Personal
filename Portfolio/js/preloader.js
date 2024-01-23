@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
     // ESTABLECER UN TIEMPO MÍNIMO DE CARGA
-    let tiempoMinimo = 1000;
+    let tiempoMinimo = 1600;
 
     // OBTENER EL TIEMPO ACTUAL
     let tiempoInicio = new Date().getTime();

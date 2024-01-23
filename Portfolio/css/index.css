@@ -1,149 +1,51 @@
-body {
-    background-image: url(../imgs/fondo-blanco.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* REVISAR */
-.sect {
-    width: 100%;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.title {
-    display: inline-block;
-}
-
-#sect1 {
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-video {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -1;
-}
-
-/* MENÚ */
-:root {
-    --body-bg-color: #1a1c1d;
-    --text-color: #aaaebc;
-    --hr-color: #26292a;
-    --red: #e74c3c;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  hr {
-    border-color: var(--hr-color);
-    margin: 20px 0;
-  }
-  
-  .menu {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .menu li {
-    margin-right: 70px;
-  }
-  
-  .menu a {
-    position: relative;
-    display: block;
-    overflow: hidden;
-  }
-  
-  .menu a span {
-    transition: transform 0.2s ease-out;
-    font-family: 'Lato';
-    font-size: 20px;
-  }
-  
-  .menu a span:first-child {
-    display: inline-block;
-    padding: 10px;
-  }
-  
-  .menu a span:last-child {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(-100%);
-  }
-  
-  .menu i {
-    font-size: 30px;
-  }
-  
-  .menu a:hover span:first-child {
-    transform: translateY(100%);
-  }
-  
-  .menu a:hover span:last-child,
-  .menu[data-animation] a:hover span:last-child {
-    transform: none;
-  }
-  
-  /* ANIMATIONS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .menu[data-animation="to-top"] a span:last-child {
-    transform: translateY(100%);
-  }
-  
-  .menu[data-animation="to-top"] a:hover span:first-child {
-    transform: translateY(-100%);
-  }
-  
-  .menu[data-animation="to-right"] a span:last-child {
-    transform: translateX(-100%);
-  }
-  
-  .menu[data-animation="to-right"] a:hover span:first-child {
-    transform: translateX(100%);
-  }
-  
-  .menu[data-animation="to-left"] a span:last-child {
-    transform: translateX(100%);
-  }
-  
-  .menu[data-animation="to-left"] a:hover span:first-child {
-    transform: translateX(-100%);
-  }
-
+/* ESTILOS GENERALES */
 /* TEXTOS */
 p {
-    font-family: 'M PLUS 1 Code';
+  font-family: 'Quicksand';
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Lato';
+  font-family: 'Lato';
 }
 
 /* IMÁGENES */
 .fakeimg {
-    height: 200px;
-    background: #333333;
+  height: 200px;
+  background: #333333;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.p-header {
+  margin-top: 0.5%;
+}
+
+.p-text-header {
+  font-size: 25px;
+}
+
+.title {
+  display: inline-block;
+}
+
+video {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: -1;
+}
+
+/* BODY */
+body {
+  background-image: url(../imgs/fondo-blanco.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
