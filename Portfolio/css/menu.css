@@ -32,9 +32,13 @@ hr {
 }
   
 .menu li {
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 6%;
+    margin-left: 6%;
 }
+
+/* ul li:nth-child(3) {
+    padding-left: 120px;
+} */
   
 .menu a {
     position: relative;
@@ -45,7 +49,7 @@ hr {
 .menu a span {
     transition: transform 0.2s ease-out;
     font-family: 'Lato';
-    font-size: 20px;
+    font-size: 25px;
     color: #001F3F;
 }
   
