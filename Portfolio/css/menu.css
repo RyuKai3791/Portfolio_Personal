@@ -28,10 +28,12 @@ hr {
 .menu {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
   
 .menu li {
-    margin-right: 70px;
+    margin-right: 60px;
+    margin-left: 60px;
 }
   
 .menu a {
@@ -44,6 +46,7 @@ hr {
     transition: transform 0.2s ease-out;
     font-family: 'Lato';
     font-size: 20px;
+    color: #001F3F;
 }
   
 .menu a span:first-child {

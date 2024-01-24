@@ -20,7 +20,7 @@ ul {
 }
   
 .proyecto-link:hover {
-    background-color: rgb(0, 200, 255);
+    background-color: #b3d6dc;
 }
 
 #proyecto-info {
@@ -29,18 +29,18 @@ ul {
     margin-top: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
+}
   
   #proyecto-descripcion {
     margin-bottom: 10px;
-  }
+}
   
   #proyecto-enlace {
     display: block;
-    color: #007BFF;
+    color: #b3d6dc;
     text-decoration: none;
     font-weight: bold;
-  }
+}
   
 .modal {
     display: none;  
