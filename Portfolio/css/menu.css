@@ -1,4 +1,4 @@
-/* MENÚ url: */
+/* MENÚ url: https://webdesign.tutsplus.com/es/how-to-create-different-css-hover-effects-from-scratch--cms-34222t*/
 :root {
     --body-bg-color: #1a1c1d;
     --text-color: #aaaebc;
@@ -79,7 +79,7 @@ hr {
     transform: none;
 }
   
-/* ANIMATIONS */
+/* ANIMACIONES */
 .menu[data-animation="to-top"] a span:last-child {
     transform: translateY(100%);
 }

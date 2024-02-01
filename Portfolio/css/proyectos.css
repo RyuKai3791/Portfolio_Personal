@@ -11,9 +11,15 @@
 }
 
 .proyecto img {
-    max-width: 1000px;
     width: 100%;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#interrogacion {
+    max-width: 52px;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 .tecnologias {

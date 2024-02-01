@@ -1,73 +1,73 @@
 /* ESTILOS GENERALES */
 /* TEXTOS */
 p {
-  font-family: 'Quicksand';
+    font-family: 'Quicksand';
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Lato';
+    font-family: 'Lato';
 }
 
 /* IMÁGENES */
 .img {
-  max-width: 600px;
+    max-width: 600px;
 }
 
 /* HEADER */
 .header {
-  width: 100%;
-  color: #FFFFFF;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .p-header {
-  margin-top: 0.5%;
+   margin-top: 0.5%;
 }
 
 .p-text-header {
-  font-size: 25px;
+   font-size: 25px;
 }
 
 .title {
-  display: inline-block;
+    display: inline-block;
 }
 
 video {
-  position: absolute;
-  left: 1.65%;
-  top: 0%;
-  z-index: -1;
+    position: absolute;
+    left: 1.65%;
+    top: 0%;
+    z-index: -1;
 }
 
 /* BODY */
 body {
-  background-image: url(../imgs/fondo-blanco.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(../imgs/fondo-blanco.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .personal-info {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .info-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  
 }
 
 .info-item i {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .info-item p {
-  padding-top: 15px;
+    padding-top: 14px;
 }
 
 .footer {
-  text-align: center;
+    text-align: center;
 }
