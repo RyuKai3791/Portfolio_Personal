@@ -1,0 +1,32 @@
+#proyectos {
+    text-align: center;
+}
+
+.proyecto {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.proyecto img {
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.tecnologias {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.tecnologias li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

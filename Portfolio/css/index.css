@@ -9,9 +9,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* IMÁGENES */
-.fakeimg {
-  height: 200px;
-  background: #333333;
+.img {
+  max-width: 600px;
 }
 
 /* HEADER */
@@ -48,4 +47,27 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info-item i {
+  margin-right: 10px;
+}
+
+.info-item p {
+  padding-top: 15px;
+}
+
+.footer {
+  text-align: center;
 }
